@@ -35,8 +35,30 @@ This command starts the Express server configured in server.js, serving the API 
 npm run test
 ```
 
+
+
 ### Queries
 
 If you have any opinions, thoughts, or need clarification on any aspect of the challenge, please do not hesitate to discuss these with us during the interview. We value open communication and are keen to understand your perspective and reasoning.
+
+This repository has a starter server, a users.json data file, and integration tests that define the expected API behaviour. Your task is to implement the missing functionality and make the tests pass. It recommends using the filesystem as the datastore, so you don't need PostgreSQL
+
+
+Task 1 — Implement the user API
+Read the existing tests and users.json. Implement the API behaviour specified by the tests using the existing server and JSON data.
+Your objective is to get all the tests passing without breaking the existing structure.
+
+02
+
+Add search
+Add a way to search users by name or email, ignoring letter case. Return an empty result when no users match.
+
+
+
+03
+
+Add pagination
+Support page and limit parameters. Return the requested subset and useful pagination metadata.
+
 
 Good luck, and we're excited to see you get creative!
